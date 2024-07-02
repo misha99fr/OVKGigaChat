@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -158,7 +158,6 @@
 		A5D8E976166239570088B950 /* VKWall.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8E8D6166239560088B950 /* VKWall.m */; };
 		A5D8E97A1662397F0088B950 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D8E9771662397F0088B950 /* main.m */; };
 		A5D8E97B1662397F0088B950 /* VKChat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5D8E9781662397F0088B950 /* VKChat-Info.plist */; };
-		A5D8EA78166239950088B950 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A5D8E97C166239940088B950 /* Icon.icns */; };
 		A5D8EA79166239950088B950 /* AccountsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D8E97E166239940088B950 /* AccountsIcon.png */; };
 		A5D8EA7A166239950088B950 /* AccountsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D8E97F166239940088B950 /* AccountsIcon@2x.png */; };
 		A5D8EA7B166239950088B950 /* AddMusicToStatusIconPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A5D8E980166239940088B950 /* AddMusicToStatusIconPressed.png */; };
@@ -413,6 +412,8 @@
 		A5F1192D1598DB6C004E98DF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1192C1598DB6C004E98DF /* AudioToolbox.framework */; };
 		A5F1192F1598DCEE004E98DF /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F1192E1598DCEE004E98DF /* CoreAudio.framework */; };
 		A5FF6F3F1665356A00BF2D12 /* OutputIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A5FF6F3E1665356A00BF2D12 /* OutputIcon.png */; };
+		F1D8F03A2C33D351006F20C0 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = F1D8F0392C33D351006F20C0 /* icon.icns */; };
+		F1D8F03C2C33D4F4006F20C0 /* kotpl.icns in Resources */ = {isa = PBXBuildFile; fileRef = F1D8F03B2C33D4F3006F20C0 /* kotpl.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -717,7 +718,6 @@
 		A5D8E9771662397F0088B950 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VKChat/main.m; sourceTree = SOURCE_ROOT; };
 		A5D8E9781662397F0088B950 /* VKChat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "VKChat-Info.plist"; path = "VKChat/VKChat-Info.plist"; sourceTree = SOURCE_ROOT; };
 		A5D8E9791662397F0088B950 /* VKChat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "VKChat-Prefix.pch"; path = "VKChat/VKChat-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		A5D8E97C166239940088B950 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Icon.icns; path = VKChat/Resources/Icon.icns; sourceTree = SOURCE_ROOT; };
 		A5D8E97E166239940088B950 /* AccountsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AccountsIcon.png; sourceTree = "<group>"; };
 		A5D8E97F166239940088B950 /* AccountsIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AccountsIcon@2x.png"; sourceTree = "<group>"; };
 		A5D8E980166239940088B950 /* AddMusicToStatusIconPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AddMusicToStatusIconPressed.png; sourceTree = "<group>"; };
@@ -981,6 +981,8 @@
 		A5F1192C1598DB6C004E98DF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A5F1192E1598DCEE004E98DF /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		A5FF6F3E1665356A00BF2D12 /* OutputIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutputIcon.png; sourceTree = "<group>"; };
+		F1D8F0392C33D351006F20C0 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = SOURCE_ROOT; };
+		F1D8F03B2C33D4F3006F20C0 /* kotpl.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = kotpl.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1022,7 +1024,7 @@
 		A51D794D155C221100D11A21 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A5D8E97C166239940088B950 /* Icon.icns */,
+				F1D8F0392C33D351006F20C0 /* icon.icns */,
 				A5D8E97D166239940088B950 /* Images */,
 				A5D8EA65166239950088B950 /* Sound */,
 				A5D8EA68166239950088B950 /* UI */,
@@ -1598,6 +1600,7 @@
 				A5D8EA5C166239950088B950 /* UploadPhotoDivider@2x.png */,
 				A5D8EA5D166239950088B950 /* VerticalDividerForBlackBarMusicForStatus.png */,
 				A5D8EA5E166239950088B950 /* VerticalDividerForBlackBarMusicForStatus@2x.png */,
+				F1D8F03B2C33D4F3006F20C0 /* kotpl.icns */,
 				A5D8EA5F166239950088B950 /* VKChatIconBeta.icns */,
 				A5D8EA60166239950088B950 /* VKChatIconRelease.icns */,
 				A5D8EA61166239950088B950 /* VKMetalLogo.png */,
@@ -1796,10 +1799,16 @@
 			attributes = {
 				CLASSPREFIX = VK;
 				LastUpgradeCheck = 0440;
-				ORGANIZATIONNAME = "Sergey Lenkov";
+				ORGANIZATIONNAME = cackemc;
+				TargetAttributes = {
+					A5E217D915598DF600799E15 = {
+						DevelopmentTeam = DJ2JKSJ7ZA;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = A5E217D415598DF600799E15 /* Build configuration list for PBXProject "VKChat" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -1823,7 +1832,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5D8E97B1662397F0088B950 /* VKChat-Info.plist in Resources */,
-				A5D8EA78166239950088B950 /* Icon.icns in Resources */,
 				A5D8EA79166239950088B950 /* AccountsIcon.png in Resources */,
 				A5D8EA7A166239950088B950 /* AccountsIcon@2x.png in Resources */,
 				A5D8EA7B166239950088B950 /* AddMusicToStatusIconPressed.png in Resources */,
@@ -1875,6 +1883,8 @@
 				A5D8EAAA166239950088B950 /* FieldBottomEnd.png in Resources */,
 				A5D8EAAB166239950088B950 /* FieldBottomEnd@2x.png in Resources */,
 				A5D8EAAC166239950088B950 /* FieldCenterTile.png in Resources */,
+				F1D8F03A2C33D351006F20C0 /* icon.icns in Resources */,
+				F1D8F03C2C33D4F4006F20C0 /* kotpl.icns in Resources */,
 				A5D8EAAD166239950088B950 /* FieldCenterTile@2x.png in Resources */,
 				A5D8EAAE166239950088B950 /* FieldDivider.png in Resources */,
 				A5D8EAAF166239950088B950 /* FieldDivider@2x.png in Resources */,
@@ -2319,7 +2329,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = DJ2JKSJ7ZA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Frameworks/Growl-1.3.1-SDK/Framework\"",
@@ -2329,6 +2342,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/VKChat/VKChat-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2342,7 +2356,7 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = GCF46TATC9;
+				DEVELOPMENT_TEAM = DJ2JKSJ7ZA;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../Frameworks/Growl-1.3.1-SDK/Framework\"",
@@ -2351,7 +2365,7 @@
 				GCC_PREFIX_HEADER = "VKChat/VKChat-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/VKChat/VKChat-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.ry0.ovkchat;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru-mrcackemc-OVKGigachat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
